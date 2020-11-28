@@ -24,5 +24,6 @@ List of helpful resources:
 ## Hosted on GitHub Pages
 
 * Using [React GitHub Pages](https://github.com/gitname/react-gh-pages)
+* Copy `.env.example` to `.env` and customize variables accordingly
 * Locally: npm run deploy
 * In Settings, be sure to set GitHub Pages Source to Branch: gh-pages
