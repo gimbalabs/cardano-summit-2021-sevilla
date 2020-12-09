@@ -48,4 +48,14 @@ export const cskInfo = [
     youtubeLink: 'https://www.youtube.com/playlist?list=PLfiIgLMz-N6F_697XNFVSyax38_9XH8bV',
     updated: 'November'
 },
+{
+    id: '004',
+    headerTitle: 'CSK #004',
+    headerSubtitle: 'A mini-csk on Transaction Metadata',
+    headerText: 'Curious about how transaction metadata works on Cardano? Come investigate what tx metadata looks like and our hack for posting text strings to the blockchain.',
+    img: '004cover.png',
+    gitHubLink: 'https://github.com/GimbaLabs/csk-004',
+    youtubeLink: 'https://youtu.be/IJ-iiYkdn8Y',
+    updated: 'December'
+},
 ]

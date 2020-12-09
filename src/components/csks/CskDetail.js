@@ -21,6 +21,7 @@ function CskDetail() {
     const linkDisplay = () => {
         let l = csk.localLink;
         let g = csk.gitHubLink;
+        let y = csk.youtubeLink;
         if (g != null){
             return (
                 <div>
@@ -28,6 +29,7 @@ function CskDetail() {
                     <ul>
                         <li><a href={l}>Full Documentation</a></li>
                         <li><a href={g}>GitHub</a></li>
+                        <li><a href={y}>YouTube</a></li>
                     </ul>
                 </div>
             );
