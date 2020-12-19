@@ -8,8 +8,8 @@ export const apiInfo = [
     gitHubLink: "https://github.com/input-output-hk/cardano-rest#overview",
     docLink: "https://input-output-hk.github.io/cardano-rest/explorer-api",
     updated: "November",
-    mainnet: { version: "3.0.0" },
-    testnet: { version: "3.0.0" },
+    mainnet: { version: "3.1.1" },
+    testnet: { version: "3.1.1" },
     markdownEndpoints: `
 - [testnet](https://explorer-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
 - [mainnet](https://explorer-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
@@ -31,11 +31,11 @@ curl -s \\
     gitHubLink: "https://github.com/input-output-hk/cardano-rest#overview",
     docLink: "https://input-output-hk.github.io/cardano-rest/submit-api/",
     updated: "November",
-    mainnet: { version: "3.0.0" },
-    testnet: { version: "3.0.0" },
+    mainnet: { version: "3.1.1" },
+    testnet: { version: "3.1.1" },
     markdownEndpoints: `
-- [testnet](https://explorer-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
-- [mainnet](https://explorer-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
+- [testnet](https://submit-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
+- [mainnet](https://submit-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
 `,  
     markdownExamples: `
 - bash:
@@ -58,11 +58,11 @@ curl -X POST \\
     gitHubLink: "https://github.com/input-output-hk/cardano-graphql#overview",
     docLink: "https://input-output-hk.github.io/cardano-graphql/",
     updated: "November",
-    mainnet: { version: "3.0.0" },
-    testnet: { version: "3.0.0" },
+    mainnet: { version: "3.1.0" },
+    testnet: { version: "3.1.0" },
     markdownEndpoints: `
-- [testnet](https://explorer-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
-- [mainnet](https://explorer-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
+- [testnet](https://graphql-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
+- [mainnet](https://graphql-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
 `,
     markdownExamples: `
 - bash:    
@@ -118,8 +118,8 @@ echo '{ "type": "jsonwsp/request", "version": "1.0", "servicename": "ogmios", "m
     gitHubLink: "https://github.com/input-output-hk/cardano-db-sync",
     docLink: "https://github.com/input-output-hk/cardano-db-sync/blob/master/doc/interesting-queries.md",
     updated: "November",
-    mainnet: { version: "6.0.0" },
-    testnet: { version: "6.0.0" },
+    mainnet: { version: "7.1.0" },
+    testnet: { version: "7.1.0" },
     markdownEndpoints: `
 - [testnet](https://postgrest-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
 - [mainnet](https://postgrest-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
@@ -151,8 +151,8 @@ curl -s "https://postgrest-api.mainnet.dandelion.link/tx_metadata?json->>Network
     gitHubLink: "https://github.com/input-output-hk/cardano-node#cardano-cli",
     docLink: "https://github.com/input-output-hk/cardano-node/blob/master/cardano-cli/README.md",
     updated: "November",
-    mainnet: { version: "1.21.1" },
-    testnet: { version: "1.23.0" },
+    mainnet: { version: "1.24.2" },
+    testnet: { version: "1.24.2" },
     markdownEndpoints: `
 - [testnet](https://cardano-node-socket.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
 - [mainnet](https://cardano-node-socket.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
