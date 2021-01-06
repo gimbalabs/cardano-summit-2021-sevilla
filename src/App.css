@@ -1,10 +1,7 @@
 .container {
-  padding: 1rem;
+  padding: 0.1rem;
 }
 
-.lead {
-  padding-top: 2rem;
-}
 
 :root {
   --mainDark: #343a40;

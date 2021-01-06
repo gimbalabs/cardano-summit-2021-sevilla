@@ -22,16 +22,16 @@ function App() {
   return (
     <>
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route exact path="/cardano-starter-kits" component={CskList} />
-        <Route path="/cardano-starter-kits/:id" component={CskDetail} />
-        <Route exact path="/open-source-apis" component={ApiList} />
-        <Route path="/open-source-apis/:id" component={ApiDetail} />
-        <Route exact path="/playground" component={Playground} />
-        <Route component={NotFound} />
-      </Switch>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route exact path="/cardano-starter-kits" component={CskList} />
+          <Route path="/cardano-starter-kits/:id" component={CskDetail} />
+          <Route exact path="/open-source-apis" component={ApiList} />
+          <Route path="/open-source-apis/:id" component={ApiDetail} />
+          <Route exact path="/playground" component={Playground} />
+          <Route component={NotFound} />
+        </Switch>
       <Footer />
     </>
   );

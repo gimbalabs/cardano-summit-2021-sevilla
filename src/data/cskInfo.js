@@ -58,4 +58,14 @@ export const cskInfo = [
     youtubeLink: 'https://youtu.be/IJ-iiYkdn8Y',
     updated: 'December'
 },
+{
+    id: '005',
+    headerTitle: 'CSK #005',
+    headerSubtitle: 'The Gimbalabs Local ADA Spending Challenge',
+    headerText: 'You should take a look at this Cardano Starter Kit if you are curious about how tokens work...and if you want to contribute to the historic roll out of Cardano!',
+    img: '005cover.png',
+    gitHubLink: 'https://github.com/GimbaLabs/csk-005',
+    youtubeLink: 'https://youtu.be/QZqV8P7nqlo',
+    updated: 'December'
+},
 ]
