@@ -21,8 +21,8 @@ function Home() {
                             <p class="card-text">See details here and a video description here.</p>
                             <p class="card-text">List of winners</p>
                             <p class="card-text">Why are we doing this?</p>
-                            <a href="#" class="btn btn-primary m-2">Challenge Description on GitHub</a>
-                            <a href="#" class="btn btn-primary m-2">Video Overview on YouTube</a>
+                            <a href="https://github.com/GimbaLabs/csk-005" class="btn btn-primary m-2">Challenge Description on GitHub</a>
+                            <a href="https://youtu.be/HdvTZ5oX2fI" class="btn btn-primary m-2">Video Overview on YouTube</a>
                         </div>
                     </div>
                 </div>
