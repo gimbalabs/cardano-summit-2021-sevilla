@@ -128,6 +128,15 @@ echo '{ "type": "jsonwsp/request", "version": "1.0", "servicename": "ogmios", "m
 
 - bash:    
 ~~~bash
+# query available metadatums
+curl -s https://postgrest-api.mainnet.dandelion.link/rpc/get_metadatum
+# query metadatum 20201210
+curl -d metadatum=20201210 -s https://postgrest-api.mainnet.dandelion.link/rpc/get_metadata | jq .
+# query metadatum 42 for epoch 234-235 and limit results to 1
+curl -s \
+  -d metadatum=42 \
+  -d epochs={234,235} \
+   https://postgrest-api.mainnet.dandelion.link/rpc/get_metadata?limit=1
 # query metadata entry number 15
 curl -s "https://postgrest-api.mainnet.dandelion.link/tx_metadata?id=eq.15"
 # query pool metadata whose URL contains "repsistance" 
