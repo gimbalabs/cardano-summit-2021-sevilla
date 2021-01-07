@@ -6,12 +6,10 @@ class CskList extends Component {
     render() {
         return (
             <div className="container mb-5">
-                <div className="row">
+                <div>
                     <h1 className="display-4">Cardano Starter Kits</h1>
-                    <br />
-                    <br />
-                    <p class="lead">A CSK is your chance to get hands on with Cardano.</p>
-                    <p class="lead">As Goguen and Voltaire continue to roll out, we'll be here exploring what these tools can do.</p>
+                    <p>A CSK is your chance to get hands on with Cardano.</p>
+                    <p>As Goguen and Voltaire continue to roll out, we'll be here exploring what these tools can do.</p>
                 </div>
                    
                 <div className="row mb-5">

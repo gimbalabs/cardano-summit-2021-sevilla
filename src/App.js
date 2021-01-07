@@ -17,6 +17,7 @@ import ApiDetail from "./components/apis/ApiDetail";
 // import ApiDetail from "./components/apis/ApiDetail"
 import NotFound from "./components/errors/NotFound";
 import Playground from "./components/playground/Playground";
+import Winners from "./components/winners/Winners";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/open-source-apis" component={ApiList} />
           <Route path="/open-source-apis/:id" component={ApiDetail} />
           <Route exact path="/playground" component={Playground} />
+          <Route exact path="/winners" component={Winners} />
           <Route component={NotFound} />
         </Switch>
       <Footer />

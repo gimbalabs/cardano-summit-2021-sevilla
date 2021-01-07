@@ -2,12 +2,12 @@ export const cskInfo = [
 {
     id: 'about',
     headerTitle: 'About Starter Kits',
-    headerSubtitle: 'Learn more',
-    headerText: '',
+    headerSubtitle: 'Start Here',
+    headerText: 'Background information about Cardano Starter Kits',
     img: 'aboutcover.jpg',
     gitHubLink: 'link',
     localLink: 'https://workshopmaybe.com/learn/cardano-starter-kits/',
-    updated: ''
+    updated: 'December 2020'
 },
 {
     id: '000',
@@ -16,7 +16,7 @@ export const cskInfo = [
     headerText: 'Keep your recovery phrase close, investigate the options for ADA wallets, for buying ADA on exchanges, and for staking.',
     img: '000cover.png',
     localLink: 'https://workshopmaybe.com/learn/cardano-starter-kits/cardano-starter-kit-000/',
-    updated: 'October'
+    updated: 'October 2020'
 },
 {
     id: '001',
@@ -26,7 +26,7 @@ export const cskInfo = [
     img: '001cover.png',
     gitHubLink: 'https://github.com/workshop-maybe/sk01-leave-your-mark',
     localLink: 'https://workshopmaybe.com/learn/cardano-starter-kits/starter-kit-001/',
-    updated: 'October'
+    updated: 'October 2020'
 },
 {
     id: '002',
@@ -36,7 +36,7 @@ export const cskInfo = [
     img: '002cover.png',
     gitHubLink: 'https://github.com/workshop-maybe/csk-002',
     localLink: 'https://workshopmaybe.com/learn/cardano-starter-kits/cardano-starter-kit-002/',
-    updated: 'November'
+    updated: 'November 2020'
 },
 {
     id: '003',
@@ -46,7 +46,7 @@ export const cskInfo = [
     img: '003cover.png',
     gitHubLink: 'https://github.com/GimbaLabs/csk-003',
     youtubeLink: 'https://www.youtube.com/playlist?list=PLfiIgLMz-N6F_697XNFVSyax38_9XH8bV',
-    updated: 'November'
+    updated: 'November 2020'
 },
 {
     id: '004',
@@ -56,7 +56,7 @@ export const cskInfo = [
     img: '004cover.png',
     gitHubLink: 'https://github.com/GimbaLabs/csk-004',
     youtubeLink: 'https://youtu.be/IJ-iiYkdn8Y',
-    updated: 'December'
+    updated: 'December 2020'
 },
 {
     id: '005',
@@ -66,6 +66,6 @@ export const cskInfo = [
     img: '005cover.png',
     gitHubLink: 'https://github.com/GimbaLabs/csk-005',
     youtubeLink: 'https://youtu.be/QZqV8P7nqlo',
-    updated: 'December'
+    updated: 'January 2021'
 },
 ]
