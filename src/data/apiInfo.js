@@ -15,6 +15,7 @@ export const apiInfo = [
 - [mainnet](https://explorer-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
 `,
     markdownExamples: `
+- [graphql](https://github.com/input-output-hk/cardano-graphql/tree/master/packages/api-cardano-db-hasura/src/example_queries)
 - bash:
 ~~~bash
 curl -s \\
