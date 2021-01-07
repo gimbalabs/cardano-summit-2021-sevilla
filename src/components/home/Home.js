@@ -13,7 +13,6 @@ function Home() {
                 </div>
                 <div className="col m-5">
                     <h1>How can you get involved?</h1>
-                    <h4></h4>
                     <div class="card m-5">
                         <h5 class="card-header">Help drive adoption of ADA by participating in the Gimbalabs Local ADA Spending Challenge</h5>
                         <div class="card-body">
