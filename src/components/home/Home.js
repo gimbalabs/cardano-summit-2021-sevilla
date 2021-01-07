@@ -3,22 +3,22 @@ import { Link } from 'react-router-dom';
 
 function Home() {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid p-5">
             <div className="row">
-                <div className="col-4 m-5">
+                <div className="col-12 col-md-4 mt-4 p-3">
                     <h1>Welcome to GimbaLabs!</h1>
                     <p class="mission">Our Mission: Mobilizing everyone in the Cardano community by creating tools and real-world use cases that ignite the public imagination and facilitate adoption.</p>
                     <p class="mission">Our Vision: A world where as many people as possible are empowered to solve problems using the Cardano platform.</p>
                     <p>GimbaLabs is a collaborative platform for creating ways to show the world what Cardano can do. Please forgive our appearance while we work on our branding - we're glad you're here and would love to hear what you hope to get out of this site.</p>
                     <p>We are creating free and open source tools, lessons, and resources that people can learn from. The architecture of this site is one example - more to come on that!</p>
                 </div>
-                <div className="col m-5">
+                <div className="col-12 col-md-7 mt-4 ml-5 p-3">
                     <h1>How can you get involved?</h1>
                     <h3>At GimbaLabs, we want to help you find ways to participate in the adoption of ADA</h3>
                             <p class="mission">
                                 Over the next few months, we will continue to release APIs and Starter Kits that provide entry points for learning about and building upon what Cardano can do. 
                             </p>
-                    <div class="card m-2">
+                    <div class="card m-3">
                         <h5 class="card-header">The Gimbalabs Local ADA Spending Challenge</h5>
                         <div class="card-body">
                             <p class="card-text">
