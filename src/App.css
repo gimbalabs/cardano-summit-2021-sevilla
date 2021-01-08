@@ -24,6 +24,14 @@ h1 {
   font-family: 'Bebas Neue', cursive;
 }
 
+h4 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #000066;
+  
+}
+
 p {
   font-family: 'Nunito', sans-serif;
   font-size: 1em;
@@ -31,4 +39,16 @@ p {
 
 .mission {
   font-size: 1.5em;
+  font-weight: 200;
+  color: #000066;
+}
+
+.btn.btn-primary {
+  background-color: #000066;
+  border-color: #000066;
+}
+
+.btn.btn-success {
+  background-color: #006600;
+  border-color: #000066;
 }

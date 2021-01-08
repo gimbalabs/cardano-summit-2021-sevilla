@@ -5,11 +5,7 @@ function Footer() {
     return (
     <FooterContainer>
         <div className="footer-bottom">
-            <div className="row">
-                <div className="col"></div>
-                <div className="col"><p className="text-xs-center">GimbaLabs - Open Source since {new Date().getFullYear()}</p></div>
-                <div className="col"></div>
-            </div>
+                <div className="col ml-3"><p className="text-xs-center">GimbaLabs | open source since 2020</p></div>
      
         </div>
     </FooterContainer>
