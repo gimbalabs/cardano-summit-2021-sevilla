@@ -14,7 +14,7 @@ function Home() {
                 </div>
                 <div className="col-12 col-md-7 mt-4 ml-md-5 p-lg-3">
                     <h1>How can you get involved?</h1>
-                    <h4>At GimbaLabs, we want to help you find ways to participate in the adoption of ADA</h4>
+                    <p class="mission">At GimbaLabs, we want to help you find ways to participate in the adoption of ADA</p>
                             <p class="mission">
                                 Over the next few months, we will continue to release APIs and Starter Kits that provide entry points for learning about and building upon what Cardano can do. 
                             </p>
