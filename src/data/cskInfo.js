@@ -1,13 +1,13 @@
 export const cskInfo = [
 {
     id: 'about',
-    headerTitle: 'About Starter Kits',
-    headerSubtitle: 'Start Here',
-    headerText: 'Background information about Cardano Starter Kits',
+    headerTitle: 'What is a Cardano Starter Kit?',
+    headerSubtitle: 'And how do you make one?',
+    headerText: 'Here is an outline of our thinking behind CSKs. In collaboration with other builders, we are creating support resources for more people to contribute expertise to the Gimbalabs community.',
     img: 'aboutcover.jpg',
-    gitHubLink: 'link',
+    gitHubLink: 'https://github.com/GimbaLabs/csk-about-csks',
     localLink: 'https://workshopmaybe.com/learn/cardano-starter-kits/',
-    updated: 'December 2020'
+    updated: 'January 2021'
 },
 {
     id: '000',
