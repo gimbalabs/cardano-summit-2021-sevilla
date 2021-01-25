@@ -143,6 +143,12 @@ curl -s "https://postgrest-api.mainnet.dandelion.link/pool_meta_data?url=like.*r
 curl -s "https://postgrest-api.mainnet.dandelion.link/tx_metadata?json->>ProposalId=eq.80064c28-1b03-4f1c-abf0-ca8c5a98d5b9"
 # query metadata entries for the whole SPOCRA network
 curl -s "https://postgrest-api.mainnet.dandelion.link/tx_metadata?json->>NetworkId=eq.SPOCRA"
+# query transactions history for addresses array
+curl -X POST -H "Content-Type: application/json" -d '{ "data": { "addresses" : ["addr_test1vzep2se0nr849acwfnlpm2sa3sz726g6v78ej4sy9ewjprqmcl720","addr_test1qptw3z77j2vjhd45vdqhct46uvwucese43twz9afv0lt9h83lgv8qkdvg9akyn2yyrtp75sd6ejwl3m0f4qtve43ydnsckuvc4"] } }' -s "https://postgrest-api.testnet.dandelion.link/rpc/get_tx_history_for_addresses" | jq .
+# query delegation history for stake addresses array
+curl -X POST -H "Content-Type: application/json" -d '{ "data": { "addresses" : ["stake_test1uz605p766mvsyrufagjw5fepqfp8x9ff2ty2hzdrjuvuj8g5efx4w","stake_test1uq3zf47elmdxp92wgmcx4lrkjrlts5fffs36c7dz02d7faqye6l9j"] } }' -s "https://postgrest-api.testnet.dandelion.link/rpc/get_delegation_history_for_stake_address" | jq .
+# query addresses balance at the end of a given epoch
+curl -X POST -H "Content-Type: application/json" -d '{ "data": { "epoch": "105", "addresses" : ["addr_test1vzep2se0nr849acwfnlpm2sa3sz726g6v78ej4sy9ewjprqmcl720","addr_test1qptw3z77j2vjhd45vdqhct46uvwucese43twz9afv0lt9h83lgv8qkdvg9akyn2yyrtp75sd6ejwl3m0f4qtve43ydnsckuvc4"] } }' -s "https://postgrest-api.testnet.dandelion.link/rpc/get_eoe_balance_for_addresses" | jq .
 ~~~
 
 [Postgrest documentation](http://postgrest.org/en/latest/api.html) will be handy to explore the whole Cardano network throuh this API.
