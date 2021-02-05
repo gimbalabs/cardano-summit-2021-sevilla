@@ -7,7 +7,7 @@ export const apiInfo = [
     img: "showcase-explorer-api.png",
     gitHubLink: "https://github.com/input-output-hk/cardano-rest#overview",
     docLink: "https://input-output-hk.github.io/cardano-rest/explorer-api",
-    updated: "November",
+    updated: "05-02-2021",
     mainnet: { version: "3.1.1" },
     testnet: { version: "3.1.1" },
     markdownEndpoints: `
@@ -31,7 +31,7 @@ curl -s \\
     img: "showcase-submit-api.png",
     gitHubLink: "https://github.com/input-output-hk/cardano-rest#overview",
     docLink: "https://input-output-hk.github.io/cardano-rest/submit-api/",
-    updated: "November",
+    updated: "05-02-2021",
     mainnet: { version: "3.1.1" },
     testnet: { version: "3.1.1" },
     markdownEndpoints: `
@@ -58,9 +58,9 @@ curl -X POST \\
     img: "showcase-graphql-api.png",
     gitHubLink: "https://github.com/input-output-hk/cardano-graphql#overview",
     docLink: "https://input-output-hk.github.io/cardano-graphql/",
-    updated: "November",
-    mainnet: { version: "3.1.0" },
-    testnet: { version: "3.1.0" },
+    updated: "05-02-2021",
+    mainnet: { version: "3.2.0" },
+    testnet: { version: "3.2.0" },
     markdownEndpoints: `
 - [testnet](https://graphql-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
 - [mainnet](https://graphql-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
@@ -92,7 +92,7 @@ curl -H 'Content-Type: application/json' \\
     img: "showcase-ogmios-api.png",
     gitHubLink: "https://github.com/KtorZ/cardano-ogmios",
     docLink: "https://ktorz.github.io/cardano-ogmios/",
-    updated: "November",
+    updated: "05-02-2021",
     mainnet: { version: "2.0.0-beta" },
     testnet: { version: "2.0.0-beta" },
     markdownEndpoints: `
@@ -118,9 +118,9 @@ echo '{ "type": "jsonwsp/request", "version": "1.0", "servicename": "ogmios", "m
     img: "showcase-postgrest-api.png",
     gitHubLink: "https://github.com/input-output-hk/cardano-db-sync",
     docLink: "https://github.com/input-output-hk/cardano-db-sync/blob/master/doc/interesting-queries.md",
-    updated: "November",
-    mainnet: { version: "7.1.0" },
-    testnet: { version: "7.1.0" },
+    updated: "05-02-2021",
+    mainnet: { version: "cardano-db-sync-8.0.0" },
+    testnet: { version: "cardano-db-sync-8.0.0" },
     markdownEndpoints: `
 - [testnet](https://postgrest-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
 - [mainnet](https://postgrest-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
@@ -156,6 +156,28 @@ curl -X POST -H "Content-Type: application/json" -d '{ "data": { "epoch": "105",
 `
 },
 {
+    id: "rosetta-api",
+    headerTitle: "rosetta-api",
+    headerSubtitle: "Cardano implementation for the Rosetta open-source specification.",
+    headerText: "Rosetta is an open-source specification and set of tools that makes integrating with blockchains simpler, faster, and more reliable.",
+    img: "showcase-rosetta-api.png",
+    gitHubLink: "https://github.com/input-output-hk/cardano-rosetta",
+    docLink: "https://github.com/input-output-hk/cardano-rosetta#documentation",
+    updated: "05-02-2021",
+    mainnet: { version: "1.1.0" },
+    testnet: { version: "1.1.0-testnet" },
+    markdownEndpoints: `
+- [testnet](https://rosetta-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
+- [mainnet](https://rosetta-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
+`,
+    markdownExamples: `
+- bash:
+~~~bash
+curl -X POST -H 'Content-Type: application/json' --data '{"network_identifier":{"blockchain":"cardano","network":"testnet"},"block_identifier":{"index":100}}' https://rosetta-api.testnet.dandelion.link/block
+~~~
+`
+},
+{
     id: "cardano-node-socket",
     headerTitle: "[coming-soon] cardano-node-socket-over-https",
     headerSubtitle: "You can use this REST API to setup a local socket file and use cardano-cli against it",
@@ -163,9 +185,9 @@ curl -X POST -H "Content-Type: application/json" -d '{ "data": { "epoch": "105",
     img: "showcase-comingsoon.jpg",
     gitHubLink: "https://github.com/input-output-hk/cardano-node#cardano-cli",
     docLink: "https://github.com/input-output-hk/cardano-node/blob/master/cardano-cli/README.md",
-    updated: "November",
-    mainnet: { version: "1.24.2" },
-    testnet: { version: "1.24.2" },
+    updated: "05-02-2021",
+    mainnet: { version: "1.25.1" },
+    testnet: { version: "1.25.1" },
     markdownEndpoints: `
 - [testnet](https://cardano-node-socket.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
 - [mainnet](https://cardano-node-socket.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
