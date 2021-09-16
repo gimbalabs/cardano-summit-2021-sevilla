@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cardano-summit-2021-sevilla/static/css/main.96f7dce9.chunk.css",
+    "main.js": "/cardano-summit-2021-sevilla/static/js/main.faa7b9c8.chunk.js",
+    "main.js.map": "/cardano-summit-2021-sevilla/static/js/main.faa7b9c8.chunk.js.map",
+    "runtime-main.js": "/cardano-summit-2021-sevilla/static/js/runtime-main.c5b527b7.js",
+    "runtime-main.js.map": "/cardano-summit-2021-sevilla/static/js/runtime-main.c5b527b7.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/cardano-summit-2021-sevilla/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.6ffc15a2.chunk.js": "/cardano-summit-2021-sevilla/static/js/2.6ffc15a2.chunk.js",
+    "static/js/2.6ffc15a2.chunk.js.map": "/cardano-summit-2021-sevilla/static/js/2.6ffc15a2.chunk.js.map",
+    "static/js/3.f771c6c3.chunk.js": "/cardano-summit-2021-sevilla/static/js/3.f771c6c3.chunk.js",
+    "static/js/3.f771c6c3.chunk.js.map": "/cardano-summit-2021-sevilla/static/js/3.f771c6c3.chunk.js.map",
+    "index.html": "/cardano-summit-2021-sevilla/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/cardano-summit-2021-sevilla/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.96f7dce9.chunk.css.map": "/cardano-summit-2021-sevilla/static/css/main.96f7dce9.chunk.css.map",
+    "static/js/2.6ffc15a2.chunk.js.LICENSE.txt": "/cardano-summit-2021-sevilla/static/js/2.6ffc15a2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5b527b7.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.6ffc15a2.chunk.js",
+    "static/css/main.96f7dce9.chunk.css",
+    "static/js/main.faa7b9c8.chunk.js"
+  ]
+}
