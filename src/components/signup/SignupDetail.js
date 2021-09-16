@@ -6,7 +6,6 @@ function SignupDetail() {
     let params = useParams();
     let network = params.id;
 
-    console.log("dadsadsa"+{network})
 
         return (
 

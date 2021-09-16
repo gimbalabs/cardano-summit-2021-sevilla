@@ -26,8 +26,8 @@ function Home() {
                             </p>
                             <p class="card-text">Todo esto es además posible desde el navegador de tu móvil gracias a wallets web como <a href="https://gamechanger.finance" >GameChanger.</a> Que por cierto, ¡está desarrollada con mucho amor desde Argentina! </p>
                             <p class="card-text">Si quieres probar a mintear el token usando este wallet, pulsa el botón para la red correspondiente. Pero ojó, ¡necesitarás ADA de verdad para hacerlo en Mainnet! </p>
-                            <Link to="/signup/:testnet" class="btn btn-primary m-2">Testnet SignUp</Link>
-                            <Link to="/signup/:mainnet" class="btn btn-primary m-2">Mainnet SignUp</Link>
+                            <Link to="/signup/testnet" class="btn btn-primary m-2">Testnet SignUp</Link>
+                            <Link to="/signup/mainnet" class="btn btn-primary m-2">Mainnet SignUp</Link>
                         </div>
                     </div>
                 </div>
