@@ -10,11 +10,9 @@ import Footer from "./components/footer/Footer";
 
 import Home from "./components/home/Home";
 import About from "./components/about/About";
-import CskList from "./components/csks/CskList";
-import CskDetail from "./components/csks/CskDetail";
-import ApiList from "./components/apis/ApiList";
-import ApiDetail from "./components/apis/ApiDetail";
-// import ApiDetail from "./components/apis/ApiDetail"
+import SaturdayScheduleList from "./components/schedule/SaturdayScheduleList";
+import SundayScheduleList from "./components/schedule/SundayScheduleList";
+import SignupDetail from "./components/signup/SignupDetail";
 import NotFound from "./components/errors/NotFound";
 import Playground from "./components/playground/Playground";
 import Winners from "./components/winners/Winners";
@@ -26,10 +24,11 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route exact path="/cardano-starter-kits" component={CskList} />
-          <Route path="/cardano-starter-kits/:id" component={CskDetail} />
-          <Route exact path="/open-source-apis" component={ApiList} />
-          <Route path="/open-source-apis/:id" component={ApiDetail} />
+          
+          
+          <Route exact path="/schedule/saturday" component={SaturdayScheduleList} />
+          <Route exact path="/schedule/sunday" component={SundayScheduleList} />
+          <Route path="/signup/:network" component={SignupDetail} />
           <Route exact path="/playground" component={Playground} />
           <Route exact path="/winners" component={Winners} />
           <Route component={NotFound} />

@@ -17,30 +17,22 @@ function Navbar() {
                         <li className="nav-item active">
                             <Link className="nav-link ml-3" to="/"><FontAwesomeIcon icon={faHome} /> Home</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link ml-3" to="/about"><FontAwesomeIcon icon={faAt} />About</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link ml-3" to="/cardano-starter-kits">Cardano Starter Kits</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link ml-3" to="/open-source-apis">Cardano APIs</Link>
-                        </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle ml-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Learn More
+                            Programación
                             </a>
                             <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <Link className="dropdown-item text-white" to="/schedule/saturday">Sábado</Link>
+                            <Link className="dropdown-item text-white" to="/schedule/sunday">Domingo</Link>
                             <Link className="dropdown-item text-white" to="/playground">Playground</Link>
-                            <div className="dropdown-divider"></div>
-                            <a className="dropdown-item text-white" href="#">Principles</a>
-                            <a className="dropdown-item text-white" href="#">Learning Philosophy</a>
-                            <a className="dropdown-item text-white" href="#">Local Philosophy</a>
                             </div>
                         </li>
-                        
+                        <li className="nav-item">
+                            <Link className="nav-link ml-3" to="/about"><FontAwesomeIcon icon={faAt} />Acerca de Cardano</Link>
+                        </li>
                     </ul>
-                    <a href="https://cardano.ideascale.com/a/dtd/Cardano-Starter-Kits-+-APIs/322195-48088"><button className="btn btn-outline-success my-2 my-sm-0" type="submit">GimbaLabs Proposal on Project Catalyst</button></a>
+                    <Link to="/signup/:testnet"><button className="btn btn-outline-success my-2 my-sm-0" type="submit">Testnet Login</button></Link>{' '}
+                    <Link to="/signup/:mainnet"><button className="btn btn-outline-success my-2 my-sm-0" type="submit">Mainnet Login</button></Link>
                 </div>
             </nav>    
         </div>

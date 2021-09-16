@@ -6,32 +6,28 @@ function Home() {
         <div className="container-fluid p-5">
             <div className="row">
                 <div className="col-12 col-md-4 mt-4 p-lg-3">
-                    <h1>Welcome to GimbaLabs!</h1>
-                    <p class="mission">Our Mission: Mobilizing everyone in the Cardano community by creating tools and real-world use cases that ignite the public imagination and facilitate adoption.</p>
-                    <p class="mission">Our Vision: A world where as many people as possible are empowered to solve problems using the Cardano platform.</p>
-                    <p>GimbaLabs is a collaborative platform for creating ways to show the world what Cardano can do. Please forgive our appearance while we work on our branding - we're glad you're here and would love to hear what you hope to get out of this site.</p>
-                    <p>We are creating free and open source tools, lessons, and resources that people can learn from. The architecture of this site is one example - more to come on that!</p>
+                    <h1>¡Bienvenido al Cardano Summit 2021!</h1>
+                    <p class="mission">Nuestra misión: ver las charlas.</p>
+                    <p>Lore lore macu macu!</p>
                 </div>
                 <div className="col-12 col-md-7 mt-4 ml-md-5 p-lg-3">
-                    <h1>How can you get involved?</h1>
-                    <p class="mission">At GimbaLabs, we want to help you find ways to participate in the adoption of ADA</p>
-                            <p class="mission">
-                                Over the next few months, we will continue to release APIs and Starter Kits that provide entry points for learning about and building upon what Cardano can do. 
-                            </p>
+                    <h1>Información relevante:</h1>
+                    <p class="mission">Accede a la programación </p>
+                    <p class="mission">
+                         Over the next few months, we will continue to release APIs and Starter Kits that provide entry points for learning about and building upon what Cardano can do. 
+                    </p>
                     <div class="card m-lg-3">
-                        <h5 class="card-header">The Gimbalabs Local ADA Spending Challenge</h5>
+                        <h5 class="card-header">"Mintea" tu propio IDNFT en Cardano!</h5>
                         <div class="card-body">
                             <p class="card-text">
-                                In our most recent Cardano Starter Kit, we provide an inital look at "token bundles" on Cardano, and we challenge you to spend ADA in your community today - right now, in January 2021. 
-                                
+                                Si quieres un recuerdo del evento, puedes crear un wallet (¡incluso desde tu móvil!) y mintear tú mismo un NFT en Cardano.
+                                En Cardano no necesitas SmartContracts, así que sí, es tan fácil como crear una wallet y enviarte una transacción a ti mismo.
+                                Además, este NFT te servirá como forma de acceso al area de usuarios de esta web. Adios a las contraseñas, el futuro es "passwordless", ¡usa tu wallet para identificarte!
                             </p>
-                            <p class="card-text">Why?</p>
-                            <p class="card-text">Because the conversations you start today will help to sow the seeds for greater projects later. That shop owner you talk to, maybe they'll come up with the next great idea for a real world use case.</p>
-                            <p class="card-text">Or, because when we send the token bundle reward to you, you'll show off the token to your friends, starting a whole new conversation about some potential application of these new tools to solve real problems.</p>
-                            <p class="card-text">See details here and a video description here:</p>
-                            <a href="https://github.com/GimbaLabs/csk-005" class="btn btn-primary m-2">Challenge Description on GitHub</a>
-                            <a href="https://youtu.be/HdvTZ5oX2fI" class="btn btn-primary m-2">Video Overview on YouTube</a>
-                            <Link to="/winners" class="btn btn-success m-2">List of Winners</Link>
+                            <p class="card-text">Todo esto es además posible desde el navegador de tu móvil gracias a wallets web como <a href="https://gamechanger.finance" >GameChanger.</a> Que por cierto, ¡está desarrollada con mucho amor desde Argentina! </p>
+                            <p class="card-text">Si quieres probar a mintear el token usando este wallet, pulsa el botón para la red correspondiente. Pero ojó, ¡necesitarás ADA de verdad para hacerlo en Mainnet! </p>
+                            <Link to="/signup/:testnet" class="btn btn-primary m-2">Testnet SignUp</Link>
+                            <Link to="/signup/:mainnet" class="btn btn-primary m-2">Mainnet SignUp</Link>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ function Footer() {
     return (
     <FooterContainer>
         <div className="footer-bottom">
-                <div className="col ml-3"><p className="text-xs-center">GimbaLabs | open source since 2020</p></div>
+                <div className="col ml-3"><p className="text-xs-center">Cardano | OpenResearch and OpenSource since 2017</p></div>
      
         </div>
     </FooterContainer>
